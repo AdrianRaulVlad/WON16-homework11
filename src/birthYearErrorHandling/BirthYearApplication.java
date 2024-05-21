@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BirthYearApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner((System.in));
-        int age = -1;
+        int age;
         boolean validInput = false;
 
         while (!validInput) {
